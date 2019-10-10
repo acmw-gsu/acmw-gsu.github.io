@@ -4,19 +4,19 @@ body{
     margin: 0;
     background-color: /*#812781*/#B46CB4;
     /*Color Palette
-    #B46CB4 - lightest
-    #964196
+    #e0cce0 - lightest
+    #B46CB4
     #6C146C
-    #520352 - darkest
+    #703970 - darkest
     */
 }
 [class*="col-"]{
     margin: 0;
     padding: 0;
 }
-a h1{
+a{
    font-family: 'Jura' , sans-serif;
-    color: white;
+    color: black;
 }
 /*Banner*/
 div.Banner{
@@ -107,7 +107,7 @@ div.Events iframe{
 
 /*Footer ~ Officers and Social Media*/
 footer{
-    background-color: black;
+    background-color: #c4bec4;
     overflow: hidden;
 }
 div.OandSm{
@@ -228,4 +228,11 @@ ul.GIRLS li{
 /*Social Media end*/
 }
 
-
+.btn-primary {
+    border: 2px solid #703970;
+    color: white;
+    background-color: #703970;
+  }
+  .bg-primary{
+      background-color: #703970;
+  }
