@@ -11,6 +11,17 @@ body {
     text-align: center;
 }
 
+.dark{
+	background-color: #9D79BC;
+}
+.light{
+    background-color: #7E1F86;
+    color: white;
+}  
+.primary{
+	background-color: #A14DA0;
+}
+
 header {
     padding: 20px;
 }
@@ -28,30 +39,28 @@ header {
     padding: 10px;
 }
 
+#calendar {
+    padding: 15px 0;
+}
+
 .socialbar {
     padding: 15px;
 }
 
 .social {
     display: inline-block;
-    padding: 15px;
+    padding: 20px;
 }
 
-.primary{
-	background-color: ;
-}
-.light{
-	background-color: ;
-	color: ;
-}  
-.dark{
-	background-color:;
-    color:;
+#end {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 400;
 }
 
 /*events begin*/
 div.events{
-    height: 25rem;
+    height: 20rem;
 }
 div.events iframe{
     height: 100%;
