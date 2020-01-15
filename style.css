@@ -15,6 +15,15 @@ header {
     padding: 20px;
 }
 
+.logos {
+
+}
+
+.logo {
+    display: inline-block;
+    padding: 15px;
+}
+
 #about {
     padding: 10px;
 }
