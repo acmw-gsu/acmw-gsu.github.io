@@ -11,10 +11,10 @@ body {
     text-align: center;
 }
 
-.dark{
+.light{
 	background-color: #9D79BC;
 }
-.light{
+.dark{
     background-color: #7f4085;
     color: white;
 }  
@@ -41,6 +41,18 @@ header {
 
 #calendar {
     padding: 15px 0;
+}
+
+#officers {
+    padding: 10px;
+}
+
+table{
+    display: inline-block;
+}
+
+th,td{
+    padding: 2px;
 }
 
 .socialbar {
